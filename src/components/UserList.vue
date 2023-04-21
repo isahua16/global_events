@@ -2,7 +2,7 @@
     <div>
         <section>
             <div v-for="(user, i) in users" :key="i">
-                <h3 @click="highlight">{{ users[i] }}</h3>
+                <h3 @click="highlight">{{ user }}</h3>
             </div>
         </section>
     </div>

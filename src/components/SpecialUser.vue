@@ -8,7 +8,7 @@
     export default {
         data() {
             return {
-                special_user: ``
+                special_user: undefined
             }
         },
         mounted() 

@@ -2,18 +2,21 @@
   <div id="app">
     <user-list></user-list>
     <special-user></special-user>
+    <all-users></all-users>
   </div>
 </template>
 
 <script>
 import UserList from '@/components/UserList.vue'
 import SpecialUser from '@/components/SpecialUser.vue'
+import AllUsers from '@/components/AllUsers.vue'
 
 export default {
   name: 'App',
   components: {
     UserList,
-    SpecialUser
+    SpecialUser,
+    AllUsers
   }
 }
 </script>
